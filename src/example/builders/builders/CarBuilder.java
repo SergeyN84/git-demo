@@ -10,7 +10,7 @@ public class CarBuilder implements Builder {
     private CarType type;
     int seats;
     private Engine engine;
-    private Transmission transmission;
+    private Transmission transmission;//2
 
     @Override
     public void setCarType(CarType type) {
