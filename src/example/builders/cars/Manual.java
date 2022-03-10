@@ -15,6 +15,7 @@ public class Manual {
         this.seats = seats;
         this.engine = engine;
         this.transmission = transmission;
+        //1234
     }
 
     public String print() {
