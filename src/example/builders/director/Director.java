@@ -10,7 +10,7 @@ public class Director {
         bilder.setCarType(CarType.SPORTS_CAR);
         bilder.setEngine(new Engine(4.0, 10));// changes 120322
         bilder.setSeats(2);
-        bilder.setTransmission(Transmission.MANUAL);//12345
+        bilder.setTransmission(Transmission.MANUAL);//123456
     }
 
     public void constructCityCar(Builder bilder) {
