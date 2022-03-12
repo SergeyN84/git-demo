@@ -25,7 +25,7 @@ public class Manual {
         info += "Count of seats: " + seats + "\n";
         info += "Engine: volume - " + engine.getVolume() + "; mileage - " + engine.getMileage() + "\n";
         info += "Transmission: " + transmission + "\n";
-
+        System.out.println(info);
         return info;
     }
 }
