@@ -18,6 +18,7 @@ public class Director {
         bilder.setEngine(new Engine(1.6, 50));
         bilder.setSeats(4);
         bilder.setTransmission(Transmission.AUTOMATIC);
+        //123123
     }
 
     public void constructBuss(Builder bilder) {
