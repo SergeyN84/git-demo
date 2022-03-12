@@ -8,7 +8,7 @@ import example.builders.components.Transmission;
 public class Director {
     public void constructSportsCar(Builder bilder) {
         bilder.setCarType(CarType.SPORTS_CAR);
-        bilder.setEngine(new Engine(4.0, 10));
+        bilder.setEngine(new Engine(7.0, 10));
         bilder.setSeats(2);
         bilder.setTransmission(Transmission.MANUAL);
     }
