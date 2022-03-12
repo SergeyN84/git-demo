@@ -20,7 +20,7 @@ public class Director {
         bilder.setTransmission(Transmission.AUTOMATIC);
     }
 
-    public void constructBus2(Builder bilder) {
+    public void constructBus(Builder bilder) {
         bilder.setCarType(CarType.CITY_CAR);
         bilder.setEngine(new Engine(10.0, 150));
         bilder.setSeats(40);
