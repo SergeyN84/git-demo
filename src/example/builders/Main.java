@@ -21,6 +21,6 @@ public class Main {
         director.constructCityCar(manualBuilder);
         Manual carManual  = manualBuilder.getResult();
         System.out.println("\nCar manual built:\n" + carManual.print());
-        //test clone commit 2
+        //test clone commit 3
     }
 }
