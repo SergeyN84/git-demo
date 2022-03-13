@@ -17,7 +17,7 @@ public class Director {
         bilder.setCarType(CarType.CITY_CAR);
         bilder.setEngine(new Engine(1.7, 50));
         bilder.setSeats(4);
-        bilder.setTransmission(Transmission.AUTOMATIC);
+        bilder.setTransmission(Transmission.AUTOMATIC);//
     }
 
     public void constructBus(Builder bilder) {
