@@ -15,7 +15,7 @@ public class Director {
 
     public void constructCityCar(Builder bilder) {
         bilder.setCarType(CarType.CITY_CAR);
-        bilder.setEngine(new Engine(1.6, 50));
+        bilder.setEngine(new Engine(1.7, 50));
         bilder.setSeats(4);
         bilder.setTransmission(Transmission.AUTOMATIC);
     }
